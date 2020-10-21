@@ -1,0 +1,10 @@
+2020-09-14 11:38:47 PM
+API Title : Create Payment
+API URL : https://checkout.sandbox.bka.sh/v1.2.0-beta/checkout/payment/create
+API Response : {"paymentID":"Q9HQOZX1600105129796","createTime":"2020-09-14T17:38:49:883 GMT+0000","orgLogo":"https://s3-ap-southeast-1.amazonaws.com/merchantlogo.sandbox.bka.sh/merchant-default-logo.png","orgName":"TestCheckoutMerchant2","transactionStatus":"Initiated","amount":"2","currency":"BDT","intent":"sale","merchantInvoiceNumber":"5697485748"}
+
+2020-09-14 11:39:10 PM
+API Title : Execute Payment
+API URL : https://checkout.sandbox.bka.sh/v1.2.0-beta/checkout/payment/execute/Q9HQOZX1600105129796
+API Response : {"paymentID":"Q9HQOZX1600105129796","createTime":"2020-09-14T17:38:49:883 GMT+0000","updateTime":"2020-09-14T17:39:13:619 GMT+0000","trxID":"7IE402RE9M","transactionStatus":"Completed","amount":"2","currency":"BDT","intent":"sale","merchantInvoiceNumber":"5697485748"}
+
